@@ -11171,6 +11171,24 @@ main {
   width: 2rem;
 }
 
+#eth-img .mask {
+  background-color: rgba(0, 255, 247, 0.5);
+  display: flex;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+#eth-img:hover .mask {
+  display: flex;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+}
+
+.card-title:hover, #creator span:hover {
+  --bs-light-rgb: 0, 255, 247;
+  transition: 0.2s ease-in-out;
+}
+
 #creator {
   font-size: 0.9rem;
 }

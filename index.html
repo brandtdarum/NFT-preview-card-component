@@ -18,7 +18,12 @@
   
   <main class="container-lg d-flex justify-content-center align-items-center">
     <article id="nftCard" class="card rounded p-4">
-      <img src="./images/image-equilibrium.jpg" alt="Equilibrium image" class="card-img-top rounded">
+      <div id="eth-img" class="card-img-top rounded overflow-hidden position-relative">
+        <img src="./images/image-equilibrium.jpg" alt="Equilibrium image" class="w-100">
+        <div class="mask position-absolute top-0 start-0 w-100 h-100 justify-content-center align-items-center">
+          <img src="./images/icon-view.svg" alt="View Icon">
+        </div>
+      </div>
       <div class="card-body p-0 pt-4">
         <h5 class="card-title text-light fw-bold">Equilibrium #3429</h5>
         <p class="card-text text-secondary fw-light">Our Equilibrium collection promotes balance and calm.</p>
